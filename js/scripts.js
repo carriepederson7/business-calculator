@@ -25,3 +25,12 @@ var bmi = weight / (height * height);
 alert("Your bmi is" + bmi)};
 
 bodyMass("what is your weight?", "What is your height?");
+
+var farenheittocelcius = function (number1, number2){return number1 / number2};
+var number1= parseInt(prompt("Enter a number:"));
+var number2= parseInt(prompt("Enter another number:"));
+alert(divide(number1,number2));
+
+var farenheittocelcius = function (number1){return (number1 - 32)*(5/9)};
+var number1= parseInt(prompt("Enter temperature in farenheit:"));
+alert(farenheittocelcius(number1));
